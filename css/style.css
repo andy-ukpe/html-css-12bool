@@ -1,0 +1,17 @@
+.container{
+  position: relative;
+}
+[class*="col-"]{
+  position: relative;
+}
+.text{
+  text-transform: capitalize;
+  text-align: center;
+  margin: auto;
+}
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
